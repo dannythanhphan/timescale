@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$site-width: 1200px;
+$hero-width: 1600px;
+$profile-image-width: 300px;
+
+$gutter: 8px;
+$gray: #333;
+$primary: #1977F3;
+$primary-light: #EEF5FE;
+
+$small-breakpoint: 500px;
+$medium-breakpoint: 960px;
+
+.footer-container {
+    flex: 2;
+    min-height: 55px;
+    background-color: $primary;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-container {
+    padding-left: 10%;
+    padding-top: 15px;
+}
+
+.copyright {
+    color: $primary-light
+}
+
+.privacy-terms-container {
+    padding-right: 10%;
+    padding-top: 15px;
+    display: flex;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: $primary-light;
+    margin-left: 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}

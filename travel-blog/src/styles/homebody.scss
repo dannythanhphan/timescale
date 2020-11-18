@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+$site-width: 1200px;
+$hero-width: 1600px;
+$profile-image-width: 300px;
+
+$gutter: 8px;
+$gray: #333;
+$primary: #1977F3;
+$primary-light: #EEF5FE;
+
+$small-breakpoint: 500px;
+$medium-breakpoint: 960px;
+
+.home-body-container {
+    flex: 30;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.hero-image-container {
+    margin: auto;
+}
+
+.hero-image {
+    width: $hero-width;
+    object-fit: cover;
+    flex: 5;
+}
+
+.blog-container {
+    flex: 5;
+    width: $site-width;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.headshot {
+    width: $profile-image-width;
+    border-radius: 50%;
+    height: $profile-image-width
+}
+
+.blog-post {
+    padding-left: 25px;
+}
+
+.subject {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.body {
+    margin-top: 20px;
+}
